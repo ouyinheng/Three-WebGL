@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#one {
+    width: 100%;
+    height: 100%s
+    background: #5A5A5A;
+    border:s none;
+}
+html, body {
+    background-color: #000;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+#control {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    bottom: 0;
+    background: RGB(255,255,255);
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 80px;
+    /*justify-content: space-around;*/
+}
+#control li {
+    display: block;
+    list-style: none;
+    width: 13%;
+    height: 120px;
+    padding: 0 10px;
+    margin: 5px;
+    border-right: 2px solid skyblue;
+    overflow: hidden;
+}
+#control>li:nth-of-type(1) {
+    border-left: 1px solid skyblue;
+}
+
+#mark {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.pro,.result {
+    width: 200px;
+    margin: 100px auto;
+}
+.result{
+    text-align: center;
+    text-shadow: 0 0 5px #333333;
+    color:#FFFFFF;
+}
+
